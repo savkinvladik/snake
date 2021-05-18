@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let worker = {
+        //     allTimeWork: 4,
+        //     bild: '3E',
+        //     room: 202,
+        //     organization: 'VNIIEF',
+        //     city: 'Sarov',
+        //     workDays: {
+        //         '8': 145,
+        //         mon: 1,
+        //         tue: 0,
+        //         wed: 0,
+        //         thu: 0,
+        //         fri: 0,
+        //         sat: 1,
+        //         sun: 0,
+        //     }
+        // };
+        
+        // let workDays = {
+        //     mon: 1,
+        //     tue: 0,
+        //     wed: 0,
+        //     thu: 1,
+        //     fri: 0,
+        //     sat: 1,
+        //     sun: 0,
+        // };
+
+        // let workList = prompt('Введите первую строку') + ': ';
+
+        // for (let i in workDays){
+        //     if (workDays[i] == 1 && confirm('Хотели бы Вы работать в ' + i + '?')){
+        //         workList += i + ', ';
+
+        //     }
+            
+        // }
+
+        // alert(workList);
+
+        let k, h; 
+        for (let i = 0; i <= 9; i++){
+            k = '//';
+            // if (i >= 4 && i <= 8){
+            //    k = '//'; 
+            // }
+            if (((i % 2) === 0) == true){
+               k = '*'; 
+            }
+            h = '';
+            for (let j = 0; j < i; j++)
+            {
+                 h += k;
+            }
+            console.log(i + h);
+        }
+
+
+            
+        
+        
+        /*
+        switch (worker.room){
+            case 202 : 
+            console.log('двести');
+            break;
+            case 2032 :
+            console.log('211');
+            break;
+            default: 
+            console.log('??');
+        }
+        */
+       
+    </script>
+</body>
+</html>

@@ -47,7 +47,7 @@ h3{
     text-align: left;
     margin: 10px 10px;
     font-family: 'main';
-    font-size: 18px;
+    font-size: 28px;
 }
 
 
@@ -166,11 +166,6 @@ table {
 }
 
 th {
-    font-size: 23px;
-    border: 1px solid;
-
+    font-size: 40px;
 }
 
-td {
-    border: 1px solid;  
-}
